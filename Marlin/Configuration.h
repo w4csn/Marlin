@@ -20,7 +20,7 @@
  *
  */
 #pragma once
-
+//#define CONFIG_EXAMPLES_DIR "Creality/Ender-3 Pro/BigTreeTech SKR Mini E3 2.0"
 /**
  * Configuration.h
  *
@@ -488,8 +488,7 @@
                                   // Set/get with gcode: M301 E[extruder number, 0-2]
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-
-  // Ultimaker
+  // Creality Ender-3 Pro
   #define DEFAULT_Kp 18.46
   #define DEFAULT_Ki 1.41
   #define DEFAULT_Kd 60.31
@@ -747,6 +746,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {79.84, 79.80, 403.02, 146.00 }
 
 /**
@@ -1511,7 +1511,7 @@
 // Preheat Constants
 #define PREHEAT_1_LABEL       "PLA"
 #define PREHEAT_1_TEMP_HOTEND 180
-#define PREHEAT_1_TEMP_BED     70
+#define PREHEAT_1_TEMP_BED     60
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "ABS"
