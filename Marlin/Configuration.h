@@ -995,6 +995,7 @@
 // Stock Probe Mount
 //#define NOZZLE_TO_PROBE_OFFSET { -45, -7, -3 }
 #define NOZZLE_TO_PROBE_OFFSET { -45, -7, 0 }
+
 // Hero Me Gen5 Mount
 //#define NOZZLE_TO_PROBE_OFFSET { -52, -20, -3 }
 
