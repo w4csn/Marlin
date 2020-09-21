@@ -20,7 +20,7 @@
  *
  */
 #pragma once
-
+#define CONFIG_EXAMPLES_DIR "Creality/Ender-5_Plus/BigTreeTech SKR Mini E3 2.0"
 /**
  * Configuration.h
  *
@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(w4csn, Ender 5 Plus)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(W4CSN, Ender 5 Plus)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
