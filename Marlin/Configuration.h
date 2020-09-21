@@ -495,9 +495,9 @@
   #else
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   // Creality Ender-3 Pro
-  #define DEFAULT_Kp 18.46
-  #define DEFAULT_Ki 1.41
-  #define DEFAULT_Kd 60.31
+  #define DEFAULT_Kp 21.44
+  #define DEFAULT_Ki 1.64
+  #define DEFAULT_Kd 70.03
 
   
    #endif
