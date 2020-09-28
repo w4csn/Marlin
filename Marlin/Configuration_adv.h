@@ -20,7 +20,7 @@
  *
  */
 #pragma once
-//#define CONFIG_EXAMPLES_DIR "Creality/Ender-5 Plus/BigTreeTech SKR Mini E3 2.0"
+#define CONFIG_EXAMPLES_DIR "Creality/Ender-5 Plus/BigTreeTech SKR Mini E3 2.0/bugfix-2.0.x"
 /**
  * Configuration_adv.h
  *
