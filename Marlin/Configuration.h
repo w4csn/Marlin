@@ -736,7 +736,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 93 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.57, 80.80, 800, 103 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.57, 80.80, 800, 169.76 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -785,8 +785,8 @@
  */
 #define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK  8.0
-  #define DEFAULT_YJERK  8.0
+  #define DEFAULT_XJERK  4.0
+  #define DEFAULT_YJERK  4.0
   #define DEFAULT_ZJERK  0.4
 
   //#define TRAVEL_EXTRA_XYJERK 1.0     // Additional jerk allowance for all travel moves
@@ -819,7 +819,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-//#define S_CURVE_ACCELERATION
+#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
